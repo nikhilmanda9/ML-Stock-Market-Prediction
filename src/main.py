@@ -144,7 +144,7 @@ def plot_sequenced(filepath, best_params):
 
   # Plot predicted data
   predicted_data = best_params['scaler'].inverse_transform(best_params['test_output'][0])
-  predicted_data = [np.mean(arr[1:]) for arr in predicted_data]
+  predicted_data = [np.max(arr) for arr in predicted_data]
   plt.plot(best_params['test_dates'], predicted_data, color='g')
 
   plt.title("Daily S&P 500 Index (sequenced)")
