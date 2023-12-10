@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 from GRU import GRU
 from IndexData import IndexData
 
-data_source = 'https://github.com/nikhilmanda9/ML-Stock-Market-Prediction/blob/main/all_stocks_5yr.parquet?raw=true'
+data_source = 'https://github.com/nikhilmanda9/ML-Stock-Market-Prediction/blob/main/data/all_stocks_5yr.parquet?raw=true'
 
 # Create a log file and try different parameters for the GRU model
 def hyperparameter_tuning():
