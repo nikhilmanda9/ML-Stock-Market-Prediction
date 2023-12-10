@@ -112,7 +112,7 @@ def best_parameters(values):
   
   return best_params
 
-# Plot the original S&P 500 Index data without sequences
+# Plot the original S&P 500 Index data without any sequences
 def plot_original(filepath, best_params):
   fig = plt.subplots(figsize=(16, 5))
 
