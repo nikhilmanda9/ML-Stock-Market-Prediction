@@ -1,6 +1,6 @@
 # ML-Stock-Market-Prediction
 
-We recommend using Google Colab to run the code since all requirements come preinstalled. Simply open a new Colab enviornment and copy&paste the commands below. No GPU is required so you can run everything Colab's CPU. The repository includes the results of our last run (logfile and plots). Running the snippet below will produce new results (may be slightly different due to random initialization of weights).
+We recommend using Google Colab to run the code since all requirements come preinstalled. Simply open a new Colab environment and copy and paste the commands below. No GPU is required so you can run everything using Colab's CPU. The repository includes the results of our last run (logfile and plots). Running the snippet below will produce new results (may be slightly different due to random initialization of weights).
 
 ```bash
 !git clone https://github.com/nikhilmanda9/ML-Stock-Market-Prediction.git
