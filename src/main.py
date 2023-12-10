@@ -16,7 +16,7 @@ data_source = 'https://github.com/nikhilmanda9/ML-Stock-Market-Prediction/blob/m
 
 # Create a log file and try different parameters for the GRU model
 def hyperparameter_tuning():
-  with open("ML-Test_Repo/gru_logs.txt", 'w') as logfile:
+  with open("ML-Stock-Market-Prediction/gru_logs.txt", 'w') as logfile:
     # Different values for our parameters
     sequence_lengths = [3,4,5]
 
