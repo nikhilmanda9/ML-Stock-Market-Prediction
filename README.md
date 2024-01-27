@@ -14,3 +14,4 @@ display(Image('ML-Stock-Market-Prediction/plots/training_errors.png'))
 print("\n")
 !cat ML-Stock-Market-Prediction/gru_logs.txt
 ```
+
